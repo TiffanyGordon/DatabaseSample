@@ -1,0 +1,100 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="ExerciseLibrary.css" link>
+<title>ExerciseLibrary</title>
+</head>
+
+<header>
+	<form id="homelink" action="ExerciseLibrary.html">
+		<input id="home" type="submit" value="HOME">
+	</form>
+	<h1>    Exercise Library    </h1>
+	<form id="faqlink" action="FAQs.html">
+		<input id="faq" type="submit" value="FAQs">
+	</form>
+	<form id="storelink" action="Store.html">
+		<input id="store" type="submit" value="Store">
+	</form>
+</header>
+
+<nav>
+	<form id="browse" method="get" action="browse.php">
+		<button name="MGroup" class="button" type="submit" value="Chest">Chest Exercises</button><br>
+		<button name="MGroup" class="button" type="submit" value="Back">Back Exercises</button><br>
+		<button name="MGroup" class="button" type="submit" value="Shoulders">Shoulder Exercises</button><br>
+		<button name="MGroup" class="button" type="submit" value="Arms">Arm Exercises</button><br>
+		<button name="MGroup" class="button" type="submit" value="Legs">Leg Exercises</button><br>
+		<button name="MGroup" class="button" type="submit" value="Many">Total Body Exercises</button><br>
+	</form>
+</nav>
+
+<section>
+	<form method="get" action="SearchResults.php">
+		Search for an exercise:
+		<input type="text" name="entry">
+		<input type="submit" class="submit" value="SUBMIT">
+	</form>
+</section>
+
+<body>
+	<h2>Featured Exercises</h2>
+	<table>
+		<tr>
+			<td>
+				<form method="get" action="ExerciseDetails.php">
+					<input type="image" src="http://ectweb.cs.depaul.edu/agordo18/finalproject/DeclinePushup.jpeg" height="150" width="150" name="ExerciseID" value="5">
+				</form>
+			</td>
+			<td>
+				<form method="get" action="ExerciseDetails.php">
+					<input type="image" src="http://ectweb.cs.depaul.edu/agordo18/finalproject/turkishgetup.jpg" height="150" width="150" name="ExerciseID" value="23">
+				</form>
+			</td>
+			<td>
+				<form method="get" action="ExerciseDetails.php">
+					<input type="image" src="http://ectweb.cs.depaul.edu/agordo18/finalproject/ExplosivePushup.jpg" height="150" width="150" name="ExerciseID" value="6">
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<form method="get" action="ExerciseDetails.php">
+					<input type="image" src="http://ectweb.cs.depaul.edu/agordo18/finalproject/farmerswalk.jpg" height="150" width="150" name="ExerciseID" value="20">
+				</form>
+			</td>
+			<td>
+				<form method="get" action="ExerciseDetails.php">
+					<input type="image" src="http://ectweb.cs.depaul.edu/agordo18/finalproject/pullup.jpg" height="150" width="150" name="ExerciseID" value="13">
+				</form>
+			</td>
+			<td>
+				<form method="get" action="ExerciseDetails.php">
+					<input type="image" src="http://ectweb.cs.depaul.edu/agordo18/finalproject/medballchestpass.jpg" height="150" width="150" name="ExerciseID" value="8">
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<form method="get" action="ExerciseDetails.php">
+					<input type="image" src="http://ectweb.cs.depaul.edu/agordo18/finalproject/latpulldown.jpg" height="150" width="150" name="ExerciseID" value="15">
+				</form>
+			</td>
+			<td>
+				<form method="get" action="ExerciseDetails.php">
+					<input type="image" src="http://ectweb.cs.depaul.edu/agordo18/finalproject/glutebridge.jpg" height="150" width="150" name="ExerciseID" value="22">
+				</form>
+			</td>
+			<td>
+				<form method="get" action="ExerciseDetails.php">
+					<input type="image" src="http://ectweb.cs.depaul.edu/agordo18/finalproject/doorwaychest.jpg" height="150" width="150" name="ExerciseID" value="10">
+				</form>
+			</td>
+		</tr>
+	</table>
+</body>
+
+<footer>
+	<h4>This website was designed for educational purposes.  This is not a commercial website.</h4>
+</footer>
+</html>
+

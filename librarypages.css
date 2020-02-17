@@ -1,0 +1,128 @@
+header {
+	display: block;
+	background-color: rgb(27, 198, 167);
+	border-bottom: 2px solid blue;
+	padding: 20px;
+	height: 90px;
+}
+
+#homelink {
+	display: inline-block;
+}
+
+#home {
+	display: inline-block;
+	height: 50px;
+	width: 90px;
+	padding: 10px;
+	border: 2px solid blue;
+	background-color: lightblue;
+	border-radius: 5px;
+	font-family: Arial, Century, Courier, Serif;
+	font: blue;
+	font-size: 20px;
+	position: absolute;
+	left: 40px;
+	top: 40px;
+}
+
+h1 {
+	position: relative;
+	left: 30%;
+	display: inline-block;
+	font-family: Arial, Century, Courier, Serif;
+	font: blue;
+	text-align: center;
+	font-style: bold;
+}
+
+#faqlink {
+	display: inline-block;
+}
+
+#faq {
+	display: inline-block;
+	height: 50px;
+	width: 90px;
+	padding: 10px;
+	border: 2px solid blue;
+	background-color: lightblue;
+	border-radius: 5px;
+	font-family: Arial, Century, Courier, Serif;
+	font: blue;
+	font-size: 20px;
+	position: absolute;
+	right: 170px;
+	top: 40px;
+}
+
+#storelink {
+	display: inline-block;
+}
+
+#store {
+	display: inline-block;
+	height: 50px;
+	width: 90px;
+	padding: 10px;
+	border: 2px solid blue;
+	background-color: lightblue;
+	border-radius: 5px;
+	font-family: Arial, Century, Courier, Serif;
+	font: blue;
+	font-size: 20px;
+	position: absolute;
+	right: 40px;
+	top: 40px;
+}
+
+nav {
+	position: absolute;
+	display: inline-block;
+	height: 480px;
+	width: 180px;
+	border: 2px solid blue;
+}
+
+.button {
+	height: 80px;
+	width: 180px;
+	padding: 10px;
+	border: 2px solid blue;
+	background-color: rgb(27, 198, 167);
+	font-family: Arial, Century, Courier, Serif;
+	font: blue;
+	font-size: 15px;
+}
+
+section {
+	position: absolute;
+	left: 35%;
+	top: 160px;
+	display: inline-block;
+	font-family: Arial, Century, Courier, Serif;
+	font-style: bold;
+	width: 65%;
+}
+
+h1 {
+	position: relative;
+	left: 20%;
+	top: 20px;
+	width: 60%;
+}
+
+div {
+	position: relative;
+	left: 20%;
+	top: 20px;
+	width: 75%;
+}
+
+footer {
+	position: relative;
+	left: 30%;
+	top: 50px;
+	display: inline-block;
+	font-family: Arial, Century, Courier, Serif;
+}
